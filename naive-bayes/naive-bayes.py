@@ -3,8 +3,9 @@ import pandas as pd
 
 path = "https://raw.githubusercontent.com/ronishg27/Genetic-algorithm/main/Copy%20of%20naive_base.csv"
 
+path = './data.csv'
 df = pd.read_csv(path, index_col=0)
-print(df, "\n\n")
+print(df, "\n\n") 
 
 X,y = df.drop(["Play Tennis"], axis=1), df["Play Tennis"]
 

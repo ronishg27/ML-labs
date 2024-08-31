@@ -1,4 +1,4 @@
-.prettierrc
-*.py
 .ipynb_checkpoints
 .prettierrc
+*.py
+
